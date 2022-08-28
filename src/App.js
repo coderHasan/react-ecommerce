@@ -1,7 +1,6 @@
 
 import "./App.css"
 import Header from "./App/Component/Header/Header";
-import Hero from "./App/Component/Hero/Hero";
 import OrderCard from "./App/Component/Order/Order";
 import Table from "./App/Component/CoffeeTable/Table";
 import ShopItems from "./App/Component/ShopCard/ShopItems";
@@ -16,6 +15,7 @@ import HashLoader from "react-spinners/HashLoader";
 import { useEffect, useState } from "react";
 import Flip from 'react-reveal/Flip';
 import Slide from 'react-reveal/Slide';
+import Banner from "./App/Component/Hero/Hero";
 
 
 
@@ -48,7 +48,7 @@ function App() {
 
       <Header/>
         <CardDrawer />
-        <Hero />
+        <Banner />
 
         <Flip top>
         <OrderCard />
